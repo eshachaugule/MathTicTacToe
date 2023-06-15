@@ -20,7 +20,6 @@ class _InterstitialAdState extends State<InterstitialAdPage> {
 
   initInterstitialAd(){
     InterstitialAd.load(
-        //adUnitId: 'ca-app-pub-5523026977500112/8244182877',//real
         adUnitId: 'ca-app-pub-3940256099942544/1033173712',//test
         request: const AdRequest(),
         adLoadCallback: InterstitialAdLoadCallback(

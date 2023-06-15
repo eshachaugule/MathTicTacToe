@@ -22,8 +22,6 @@ class _SplashState extends State<Splash> {
     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>const Home()));
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -5,10 +5,6 @@ import 'package:appy/loading.dart';
 import 'package:appy/win.dart';
 import 'package:appy/home.dart';
 
-//dialog box for win, find a great way to refresh page, check corner cases while playing(no two mcqs same), validation for all operations, no 0's in operations,, esp divide,, put limit
-
-
-
 void main() => runApp(MaterialApp(
   initialRoute: '/splash',
   routes: {

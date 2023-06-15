@@ -49,7 +49,6 @@ class _WinState extends State<Win> {
         ),
       ),
     );
-
   }
 
 
@@ -60,12 +59,11 @@ class _WinState extends State<Win> {
       return count++ == 2;
     });
     Navigator.pushNamed(context, '/location').then((_) {
-      // This block runs when you have returned back to the 1st Page from 2nd.
       setState(() {
         // Call setState to refresh the page.
       });
     });
-    return Future.value(true);//if showDialouge had returned null, then return false
+    return Future.value(true);
   }
 
   @override
@@ -128,8 +126,6 @@ class _WinState extends State<Win> {
                             ),
 
                           ),
-
-
                         ]
                     ),
                     ElevatedButton.icon(
@@ -165,13 +161,8 @@ class _WinState extends State<Win> {
 
               )
           ),
-
-
         ]
         )
     );
-
-
-
   }
 }

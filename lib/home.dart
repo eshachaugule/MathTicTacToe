@@ -111,45 +111,6 @@ class _HomeState extends State<Home> {
                             ),
                           ),
                         ),
-                    /*-------------------------------Container(
-                      height: 50.0,
-                      margin: EdgeInsets.all(10),
-                      child: RaisedButton(
-                        onPressed: () {},
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(80.0)),
-                        padding: EdgeInsets.all(0.0),
-                        child: Ink(
-                          decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                colors: [Color(0xff374ABE), Color(0xff64B6FF)],
-                                begin: Alignment.centerLeft,
-                                end: Alignment.centerRight,
-                              ),
-                              borderRadius: BorderRadius.circular(30.0)),
-                          child: Container(
-                            constraints:
-                            BoxConstraints(maxWidth: 250.0, minHeight: 50.0),
-                            alignment: Alignment.center,
-                            child: Text(
-                              "Gradient Button",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(color: Colors.white, fontSize: 15),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),*/
-                        /*ElevatedButton.icon(
-                          onPressed: () {
-                            Navigator.pushNamed(context, '/location');
-                          },
-                          icon: const Icon(
-                              Icons.mail
-                          ),
-                          label: const Text('mailme'),
-                          style: ElevatedButton.styleFrom(backgroundColor: Colors.amber),
-                        ),*/
                     ]
     ),
 
@@ -158,43 +119,6 @@ class _HomeState extends State<Home> {
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: <Widget>[
 
-                          /*DefaultTextStyle(
-                            style: const TextStyle(
-                              color: Colors.lime,
-                              fontSize: 20.0,
-                              fontFamily: 'DancingScript',
-                            ),
-                            child: Container(
-                              padding: const EdgeInsets.all(30.0),
-                              color: Colors.purple,
-                              child: const Text('one'),
-                            ),
-                          ),*/
-
-                          /*DefaultTextStyle(
-                            style: const TextStyle(
-                              color: Colors.lime,
-                              fontSize: 20.0,
-                              fontFamily: 'DancingScript',
-                            ),
-                            child: Container(
-                              padding: const EdgeInsets.all(40.0),
-                              color: Colors.brown,
-                              child: const Text('two'),
-                            ),
-                          ),
-                          DefaultTextStyle(
-                            style: const TextStyle(
-                              color: Colors.lime,
-                              fontSize: 20.0,
-                              fontFamily: 'DancingScript',
-                            ),
-                            child: Container(
-                              padding: const EdgeInsets.all(50.0),
-                              color: Colors.pink,
-                              child: Text('$number'),
-                            ),
-                          ),*/
                           ElevatedButton(
                             onPressed: () {
                               Navigator.pushNamed(context, '/location');
@@ -207,13 +131,7 @@ class _HomeState extends State<Home> {
                             child: const Text('PLAY'),
 
                           ),
-
-
-
-
-
                         ]
-
               ),
               Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -226,10 +144,6 @@ class _HomeState extends State<Home> {
                         ElevatedButton.icon
                   (
                         onPressed:  followLink,             //Navigator.pushNamed(context, '/roo');
-
-
-
-
                         icon: const Icon(
                             Icons.privacy_tip_outlined
                         ),
@@ -237,123 +151,14 @@ class _HomeState extends State<Home> {
                         style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.white10),
                       ),
-
                     ),
-
                     ]
               )
               ]
               )
-
           )
         ]
-
-      /*appBar: AppBar(
-        title: const Text('Math Tic Tac Toe'),
-        centerTitle: true,
-        backgroundColor: Colors.amber,
-      ),
-      body: Center(
-        child: Text(
-          'With Friend',
-            style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey,
-            fontFamily: 'DancingScript',
-            )
-        ),
-
-        child: Image(
-          image: AssetImage('assets/backgroundimage.jpg'),
-        ),
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.lightBlue,
-          size: 50.0,
-        ),
-        child: ElevatedButton(
-          onPressed: () {
-              print('you fsjdjfd');
-            },
-          child: Text('CLICKKKK'),
-        style: ElevatedButton.styleFrom(primary: Colors.black),
-
-        ),
-        child: ElevatedButton.icon(
-          onPressed: () {},
-          icon: const Icon(
-            Icons.mail
-          ),
-          label: Text('mailme'),
-          style: ElevatedButton.styleFrom(primary: Colors.amber),
-        ),
-        child: IconButton(
-          icon: const Icon(Icons.volume_up),
-       tooltip: 'Increase volume by 10',
-        onPressed: () {print('fyuuuuuu');},
-          color: Colors.amber,
-        ),
-
-    ),
-      body: Container(
-        padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 10.0),
-        margin: EdgeInsets.all(30.0),
-        color: Colors.grey[400],
-        child: Text('hello'),
-      ),*/
-      /*body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: <Widget>[
-          Image(
-            image: AssetImage('assets/wallpaper3.jpg'),
-          ),
-          Text('I First Row'),
-          ElevatedButton(
-          onPressed: () {     },
-            child: Text('I Elevated Button'),
-          style: ElevatedButton.styleFrom(primary: Colors.black),
-          ),
-          Container(
-            padding: EdgeInsets.symmetric(horizontal: 1.0, vertical: 10.0),
-            margin: EdgeInsets.fromLTRB(1.0, 30.0, 1.0, 30.0),
-            color: Colors.grey[400],
-            child: Text('I Container'),
-          ),
-        ],
-      ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: <Widget>[
-          Row(
-            children: <Widget>[
-              Text('hello,'),
-              Text(' world'),
-            ],
-          ),
-          Container(
-            padding: EdgeInsets.all(30.0),
-            color: Colors.purple,
-            child: Text('one'),
-          ),
-          Container(
-            padding: EdgeInsets.all(40.0),
-            color: Colors.brown,
-            child: Text('two'),
-          ),
-          Container(
-            padding: EdgeInsets.all(50.0),
-            color: Colors.deepOrange,
-            child: Text('three'),
-          ),
-        ]
-      ),*/
-
     )
     );
   }
 }
-

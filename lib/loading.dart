@@ -14,8 +14,6 @@ class Loading extends StatefulWidget {
 class _LoadingState extends State<Loading> {
 
   final BannerAd myBanner = BannerAd(
-    // https://developers.google.com/admob/android/test-ads
-    // https://developers.google.com/admob/ios/test-ads
     adUnitId: 'ca-app-pub-5523026977500112/8151031145',
     size: AdSize.banner,
     request: const AdRequest(),
@@ -64,9 +62,6 @@ class _LoadingState extends State<Loading> {
     Navigator.of(context).push( MaterialPageRoute(builder: (context) =>
     Win(value: turn),
    ));
-   // Navigator.push(context, MaterialPageRoute(builder: ((context) =>
-           // const InterstitialAdPage())));
-
   }
 
   int checkwin()
@@ -183,21 +178,11 @@ class _LoadingState extends State<Loading> {
             turn = 'Winner is: $button!!!';
 
             _navigatetohome(turn);
-
-            // Navigator.of(context).push(
-            //     MaterialPageRoute(builder: (context) =>
-            //         Win(value: turn),
-            //     ));
           }
           else if (i == 0) {
             turn = 'DRAW...';
 
             _navigatetohome(turn);
-
-            // Navigator.of(context).push(
-            //     MaterialPageRoute(builder: (context) =>
-            //         Win(value: turn),
-            //     ));
           }
 
         }
@@ -264,8 +249,6 @@ return button;
                               child: Text(turn),
                             ),
                           ),
-
-
                   ]
               )
           ),
@@ -517,7 +500,6 @@ return button;
                               elevation: 5, //elevation of button
                             ),
 
-
                             child: DefaultTextStyle(
                                     style: const TextStyle(
                                     color: Colors.white,
@@ -527,16 +509,10 @@ return button;
                                     child:  Text(button9),
 
                                     ),
-
                           ),
-
                         ),
-
-
-
                       ],
                     ),
-
 
 
                     Container(
@@ -547,19 +523,12 @@ return button;
                           width: 540.0,
 
                           child: AdWidget(ad: myBanner, )
-
                     )
                     )
               ]
               )
-
-
-
           ),
-
         ]
-
     );
-
   }
 }
