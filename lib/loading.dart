@@ -189,7 +189,7 @@ class _LoadingState extends State<Loading> {
         keeptrack = !keeptrack;
       });
 
-return button;
+  return button;
   }
 
   @override

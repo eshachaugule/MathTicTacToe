@@ -128,7 +128,6 @@ class _HomeState extends State<Home> {
                                 shadowColor: Colors.black87,
                             elevation: 20),
                             child: const Text('PLAY'),
-
                           ),
                         ]
               ),

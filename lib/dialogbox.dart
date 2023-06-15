@@ -93,7 +93,6 @@ class _MathDialogState extends State<MathDialog> {
                   child: Text('$charmcqs2'),
 
                 ),
-
               ],
                 )
             );

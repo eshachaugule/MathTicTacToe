@@ -33,7 +33,6 @@ class _SplashState extends State<Splash> {
         splashTransition: SplashTransition.scaleTransition,
         curve: Curves.easeInBack,
       ),
-
     );
   }
 }

@@ -14,6 +14,5 @@ void main() => runApp(MaterialApp(
     '/win': (context) => const Win(value: ''),
     '/iap': (context) => const InterstitialAdPage(),
   },
-
    ),
 );

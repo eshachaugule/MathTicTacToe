@@ -39,7 +39,6 @@ class _InterstitialAdState extends State<InterstitialAdPage> {
     );
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
