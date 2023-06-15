@@ -113,7 +113,6 @@ class _HomeState extends State<Home> {
                         ),
                     ]
     ),
-
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,

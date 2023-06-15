@@ -37,7 +37,6 @@ class _InterstitialAdState extends State<InterstitialAdPage> {
             ),
         ),
     );
-
   }
 
 

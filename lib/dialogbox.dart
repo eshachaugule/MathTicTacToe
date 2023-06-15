@@ -98,5 +98,4 @@ class _MathDialogState extends State<MathDialog> {
                 )
             );
           }
-
 }

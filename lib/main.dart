@@ -13,7 +13,6 @@ void main() => runApp(MaterialApp(
     '/location': (context) => const Loading(),
     '/win': (context) => const Win(value: ''),
     '/iap': (context) => const InterstitialAdPage(),
-
   },
 
    ),

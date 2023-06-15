@@ -4,7 +4,6 @@ import 'dart:io';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:appy/InterstitialAdPage.dart';
 
-
 class Win extends StatefulWidget {
   final String value;
 
@@ -18,7 +17,6 @@ class Win extends StatefulWidget {
 }
 
 class _WinState extends State<Win> {
-
 
 
   @override
